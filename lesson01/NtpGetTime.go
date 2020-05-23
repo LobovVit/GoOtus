@@ -10,7 +10,8 @@ func main() {
 	if err != nil {
 
 		fmt.Println(err)
-	} else {
+	}
+	else {
 		fmt.Println(time)
 	}
 	fmt.Println("Finish !!!!!! ")
