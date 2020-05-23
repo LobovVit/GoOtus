@@ -8,9 +8,10 @@ import (
 func main() {
 	time, err := ntp.Time("time.nist.gov")
 	if err != nil {
+
 		fmt.Println(err)
 	} else {
 		fmt.Println(time)
 	}
-	fmt.Println("Finish !!!")
+	fmt.Println("Finish !!!!!! ")
 }
