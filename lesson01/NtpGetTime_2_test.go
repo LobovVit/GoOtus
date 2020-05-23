@@ -1,18 +1,15 @@
 package main
 
 import (
+	"github.com/stretchr/testify/require"
 	"math/rand"
 	"testing"
 	"time"
 )
 
-func TestMainNtp(t *testing.T) {
+func TestMainNtp2(t *testing.T) {
 	a := random(0, 100)
-	if a > 50 {
-		t.Errorf("Вот и ошибка %d", a)
-	} else {
-		t.Logf("Вот и нет ошибки %d", a)
-	}
+	require.Greaterf(t, a, 50, "хрень")
 }
 
 func random(min, max int) int {
