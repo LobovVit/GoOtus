@@ -12,5 +12,5 @@ func main() {
 	} else {
 		fmt.Println(time)
 	}
-	fmt.Println("Finish")
+	fmt.Println("Finish!! ")
 }
