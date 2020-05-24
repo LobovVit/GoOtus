@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/beevik/ntp"
+	ntp "github.com/beevik/ntp"
 )
 
 func main() {
