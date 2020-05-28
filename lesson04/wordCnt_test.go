@@ -1,4 +1,4 @@
-package Lesson04
+package lesson04
 
 import (
 	"github.com/stretchr/testify/assert"
