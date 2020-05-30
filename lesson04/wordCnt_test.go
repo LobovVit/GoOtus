@@ -10,5 +10,4 @@ func TestCnt(t *testing.T) {
 	t1ret := [3]string{"qwe", "asd", "zxc"}
 
 	assert.Equal(t, cnt(t1val), t1ret, "Хрень {1,2,3,4,5,6,7,8,9}")
-
 }
