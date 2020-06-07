@@ -1,14 +1,18 @@
-package lesson10
+package main
 
 import (
-	"github.com/cheggaaa/pb/v3"
+	"github.com/cheggaaa/pb"
 	"io"
 	"log"
 	"os"
 	"time"
 )
 
-func Copy(from string, to string, limit int, offset int) error {
+func main() {
+	MyCopy("/Users/vitaliy/1", "/Users/vitaliy/2", 0, 0)
+}
+
+func MyCopy(from string, to string, limit int, offset int) error {
 	bufSize := 5
 	file, err := os.Open(from)
 	if err != nil {

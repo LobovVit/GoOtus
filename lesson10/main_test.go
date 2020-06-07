@@ -1,4 +1,4 @@
-package lesson10
+package main
 
 import (
 	"bytes"
@@ -10,7 +10,7 @@ func TestCopy(t *testing.T) {
 
 	b := make([]byte, 100)
 	//ioutil.WriteFile("~/1",b,644)
-	err := Copy("/Users/vitaliy/1", "/Users/vitaliy/2", 0, 0)
+	err := MyCopy("/Users/vitaliy/1", "/Users/vitaliy/2", 0, 0)
 	if err != nil {
 		t.Errorf("Ошибка! %v", err)
 	}
