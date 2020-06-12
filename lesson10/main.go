@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cheggaaa/pb"
+	"github.com/cheggaaa/pb/v3"
 	"io"
 	"log"
 	"os"
